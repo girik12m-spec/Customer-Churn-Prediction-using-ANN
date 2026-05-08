@@ -64,6 +64,14 @@ Optimizer:
 
 ## Project Structure
 
+
+├── data/
+│   └── Churn_Modelling.csv
+│
+└── notebooks/
+    ├── experiments.ipynb
+    ├── prediction.ipynb
+    └── hyperparametertuningann.ipynb
 Customer-Churn-Prediction/
 │
 ├── app.py
@@ -72,14 +80,7 @@ Customer-Churn-Prediction/
 ├── scaler.pkl
 ├── label_encoder_gender.pkl
 ├── onehot_encoder_geo.pkl
-│
-├── data/
-│   └── Churn_Modelling.csv
-│
-└── notebooks/
-    ├── experiments.ipynb
-    ├── prediction.ipynb
-    └── hyperparametertuningann.ipynb
+
 
 ---
 
